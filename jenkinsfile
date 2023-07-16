@@ -1,6 +1,7 @@
 node {
     stage('Clone code') {
-        git 'https://github.com/mehmetCt/demo-project.git'
+        git 'https://github.com/Cydeo-B29/demo-project.git' // have to change the address from the demo-project that was imported from Mehmet
+                                                            // otherwise his address wasn't working with pipeline
     }
 
     stage('Run tests'){
